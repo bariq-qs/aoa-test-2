@@ -1,0 +1,29 @@
+.wrap-price {
+  @apply bg-gray-100 my-10 px-8 py-8;
+  .price-card {
+    @apply rounded-2xl bg-white;
+    box-shadow: 0px 0px 25px rgba(39, 73, 153, 0.25);
+
+    .price-header {
+      @apply rounded-t-2xl px-4 py-4 flex justify-center text-2xl font-bold text-white;
+      background: linear-gradient(90deg, #446AB7 0%, #274999 100%);
+    }
+
+    .price-content {
+      @apply px-4 py-4;
+      .price-amount {
+        @apply text-2xl font-bold text-center my-5;
+        color: #444B8C;
+
+        span {
+          font-size: 16px;
+        }
+      }
+
+      .price-feature {
+        @apply pl-3;
+        list-style-image: url("../../../assets/icons/check-solid.svg");
+      }
+    }
+  }
+}

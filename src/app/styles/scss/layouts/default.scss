@@ -1,0 +1,30 @@
+.wrap-default-layout {
+  background-image: url('../../../assets/header.png'), url('../../../assets/footer.png');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-size: 250px, 500px;
+  min-height: 100vh;
+
+  header {
+    @apply flex items-center justify-between py-4 px-8 fixed w-full;
+    background: transparent;
+    transition: background-color 0.3s ease;
+    height: 80px;
+
+    .wrap-logo {
+
+      @apply flex items-center gap-2;
+      .logo {
+        width: 40px;
+      }
+    }
+
+    .menus {
+      @apply flex items-center gap-8;
+    }
+  }
+
+  main {
+    padding-top: 80px;
+  }
+}
