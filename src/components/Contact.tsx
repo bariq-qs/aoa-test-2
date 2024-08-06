@@ -1,5 +1,5 @@
 const ContactSection = () => {
-    return <div className="px-8 py-10 flex gap-12">
+    return <div className="px-8 py-10 flex gap-12" id='contact'>
         <div>
             <p className="text-3xl font-black mb-8">Connect With Us</p>
             <p>Instagram</p>

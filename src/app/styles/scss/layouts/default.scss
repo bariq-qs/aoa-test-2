@@ -14,6 +14,7 @@
     .wrap-logo {
 
       @apply flex items-center gap-2;
+
       .logo {
         width: 40px;
       }
@@ -26,5 +27,17 @@
 
   main {
     padding-top: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrap-default-layout {
+    background-size: 250px, 250px;
+
+  header {
+    .menus {
+      @apply hidden;
+    }
+  }
   }
 }

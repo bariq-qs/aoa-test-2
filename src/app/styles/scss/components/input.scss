@@ -1,0 +1,15 @@
+@import '../variable.scss';
+
+input {
+  &.form-control {
+    @apply border-2 border-gray-200 rounded-lg px-4 py-2 w-full;
+
+    &:focus {
+      border: 2px solid $primary;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
